@@ -6,6 +6,12 @@
   </head>
   <body>
 
+    <div>
+      <a href="index.html">Home</a>
+        <a href="moby_dick.html">Moby Dick</a>
+          <a href="tags.html">HTML Tags</a>
+        </div>
+        
     <h1>Important HTML tags</h1>
     <a href="https://www.flickr.com/photos/jdhancock/3814523970" target="_blank" rel="noopener">
     <img src="images/storm_trooper_tagged.jpg" alt="Tagged Storm Trooper">
@@ -24,14 +30,16 @@
       the most important ones.
     </p>
 
+<header>
     <h2>Block Elements</h2>
-
+</header>
+<div>
     <table>
-
       <tr>
-        <th>Tag</th>
-        <th>Name</th>
-        <th>Purpose</th>
+        <th><span>Tag</span></th>
+        <th><span>Name</span></th>
+        <th><span>Purpose</span></th>
+      </ol>
       </tr>
       <tr>
         <td><code>h1</code>&ndash;<code>h6</code></td>
@@ -63,18 +71,31 @@
           <td>table data</td>
           <td>include a table data cell</td>
         </tr>
+        <tr>
+          <td><code>ol</code></td>
+          <td>ordered list</td>
+          <td>make a ordered list</td>
+        </tr>
+        <tr>
+          <td><code>ul</code></td>
+          <td>unordered list</td>
+          <td>make an unordered list</td>
+        </tr>
 
         </table>
-
+      </div>
+<header>
     <h2>Inline Elements</h2>
+</header>
 
+  <div>
     <table>
       <tr>
-        <th>Tag</th>
-        <th>Name</th>
-        <th>Purpose</th>
-        <th>Example</th>
-        <th>Result</th>
+        <th><span>Tag</span></th>
+        <th><span>Name</span></th>
+        <th><span>Purpose</span></th>
+        <th><span>Example</span></th>
+        <th><span>Result</span></th>
       </tr>
       <tr>
         <td><code>em</code></td>
@@ -82,6 +103,44 @@
         <td>make emphasized text</td>
         <td><code>&lt;em&gt;technical sophistication&lt;/em&gt;</code></td>
       </tr>
+      <tr>
+     <td><code>strong</code></td>
+     <td>strong</td>
+     <td>make strong text</td>
+     <td><code>&lt;strong&gt;at least a billion people&lt;/strong&gt;</code></td>
+     <td><strong>at least a billion people</strong></td>
+  </tr>
+
+  <tr>
+     <td><code>a</code></td>
+     <td>anchor</td>
+     <td>make hyperlink</td>
+     <td>
+        <code>
+          &lt;a href="http://learnenough.com/"&gt;Learn Enough&lt;/a&gt;
+        </code>
+     <td><a href="http://learnenough.com/"target="_blank">Learn Enough</a></td>
+  </tr>
+
+  <tr>
+     <td><code>img</code></td>
+     <td>image</td>
+     <td>include an image</td>
+     <td>
+        <code>
+          &lt;img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"&gt;
+        </code>
+     <td><img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"></td>
+  </tr>
+  <tr>
+    <td><code>li</code></td>
+    <td>list</td>
+    <td>make list</td>
+    <td><span><code><li>table</li></code></span></td>
+    <td><li>table</li></td>
+  </tr>
+</table>
+
 
     </body>
     </html>
